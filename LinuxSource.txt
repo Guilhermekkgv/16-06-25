@@ -489,7 +489,7 @@ local MinimizeButton = Linux.Instance("ImageButton", {
     BackgroundTransparency = 1,
     Size = UDim2.new(0, 16, 0, 16),
     Position = UDim2.new(1, -46, 0.5, -8),
-    Image = "rbxassetid://10734895698",
+    Image = "rbxassetid://10734886735",
     ImageColor3 = Color3.fromRGB(180, 180, 190),
     ZIndex = 3
 })
@@ -747,7 +747,7 @@ MinimizeButton.MouseButton1Click:Connect(function()
         TweenService:Create(Main, TweenInfo.new(0.3, Enum.EasingStyle.Quad), {Size = originalSize}):Play()
         Content.Visible = true
         TabsBar.Visible = true
-        MinimizeButton.Image = "rbxassetid://10734895698"
+        MinimizeButton.Image = "rbxassetid://10734886735"
     end
 end)
 
